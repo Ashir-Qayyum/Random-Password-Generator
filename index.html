@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Password Generator</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <h1 class="h">Generate a</h1>
+            <h1 class="hh">random password</h1>
+            <p class="pp">Never use an insecure password again.</p>
+
+            <input class="in1" id="inp" type="number" min="6" max="15" placeholder="Please enter the length [6-15]" required>
+            <br>
+
+            <label for="nump"><input id="num" type="checkbox" name="pass-type" class="op1" checked /> Numbers Included</label>
+            <label for="chrp"><input id="chr" type="checkbox" name="pass-type" class="op2" checked /> Symbols Included</label>
+
+            <br><button class="b1" type="submit" onclick="generateP()">Generate password</button>
+            <div class="d1"></div>
+            <div class="pass-buttons">
+                <button class="d2" onclick="p1cpy()"><p id="pass1"></p></button>
+                <button class="d3" onclick="p2cpy()"><p id="pass2"></p></button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+<footer><p>Designed and developed by Muhammad Ashir</p>
+    <p>Submit your feedback at <a href="mailto:muhammadashir2004@gmail.com" >muhammadashir2004@gmail.com</a></p>
+    </footer>
+</html>
