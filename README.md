@@ -5,7 +5,7 @@ A simple and secure random password generator built using HTML, CSS, and JavaScr
 ## Features  
 - Generates strong passwords  
 - Customizable password length  
-- Includes uppercase, lowercase, numbers, and symbols  
+- Includes Numbers and symbols  
 - Fully responsive design
 - Copy upon click
 
