@@ -19,3 +19,6 @@ A simple and secure random password generator built using HTML, CSS, and JavaScr
 - HTML  
 - CSS  
 - JavaScript  
+
+## Live Demo  
+[Live Preview] https://random-password-generator-app-ashir.netlify.app/
